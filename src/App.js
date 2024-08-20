@@ -3,12 +3,14 @@ import VantaEffect from './component/VantaEffect';
 import Navbar from './component/Navbar';
 
 
+
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      
+    <Navbar/>
     <VantaEffect/>
-    <Event/>
+   
     
     </div>
   );
