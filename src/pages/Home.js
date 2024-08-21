@@ -14,7 +14,7 @@ export default function Home() {
           <div className="space-y-2">
             <a 
               rel="noopener noreferrer" 
-              href="#" 
+              href="http://www.w3.org/2000/svg" 
               className="inline-block text-2xl font-semibold sm:text-3xl"
             >
                 Time's Ticking - Are You Ready Buddys ?
