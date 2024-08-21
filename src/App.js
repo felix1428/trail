@@ -31,7 +31,7 @@ function App() {
                         <Route path="/tech" element={<Tech />} />
                         <Route path="/nontech" element={<NonTech />} />
                     </Routes>
-                </div>
+                 </div>
             </div>
         </Router>
     );

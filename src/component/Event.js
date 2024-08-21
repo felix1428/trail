@@ -2,8 +2,6 @@ import React from "react";
 import "../App.css";
 import tech from '../images/technical overall.jpeg'
 import nontech from '../images/nontech.png';
-import NonTech from "../component/NonTech";
-import Tech from "../component/Tech";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Event() {
