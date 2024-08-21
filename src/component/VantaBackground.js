@@ -31,7 +31,10 @@ const VantaBackground = ({ effect }) => {
         minHeight: 200.00,
         minWidth: 200.00,
         scale: 1.00,
+        speed:2,
         scaleMobile: 1.00,
+        color: 0x110808,
+        backgroundColor: 0xa08ed4
       });
     } else if (effect === 'waves') {
       vantaEffect = WAVES({
@@ -62,8 +65,8 @@ const VantaBackground = ({ effect }) => {
       if (vantaEffect) vantaEffect.destroy();
     };
   }, [effect]);
-
-  return <div ref={vantaRef} style={{ width: '100%', height: '100vh', position: 'absolute', top: 0, left: 0, zIndex: -1 }} />;
+  
+  return <div ref={vantaRef} style={{ width: '100%', height: '100vh', position: 'fixed', top: 0, left: 0, zIndex: -1 }} />;
 };
 
 export default VantaBackground;

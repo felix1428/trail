@@ -1,8 +1,10 @@
 .blueline {
-  position: relative;
+  position: Center;
   display: inline-block;
   padding-bottom: 10px; /* Adjust space below the text */
+  z-index: 1; /* Ensure it's below the menu */
 }
+
 
 .blueline::after {
   content: "";
@@ -15,4 +17,24 @@
   bottom: 0; /* Align with the bottom of the text */
   transform: translateX(-50%); /* Center the line */
   border-radius: 5px; /* Optional: for rounded edges */
+  z-index: -1; /* Ensure it's behind the text */
+}
+
+header {
+  position: fixed; /* Keep the navbar fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Make sure it spans the full width */
+  z-index: 1000; /* Ensure it stays above other content */
+  background-color: #333; /* Ensure the background color is solid for visibility */
+  transition: top 0.3s; /* Optional: for smooth appearance/disappearance */
+}
+
+body {
+  padding-top: 8rem; /* Add padding to avoid content being hidden behind the navbar */
+}
+
+
+ul {
+  z-index: 20; /* Ensure the mobile menu is above other elements */
 }
