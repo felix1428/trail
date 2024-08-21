@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/felix1428/trail.git/static/css/main.00b9dca3.css",
+    "main.js": "/felix1428/trail.git/static/js/main.27837122.js",
+    "static/media/treasure hunt.png": "/felix1428/trail.git/static/media/treasure hunt.ff2a40a2a47d977fd3ff.png",
+    "static/media/gif.png": "/felix1428/trail.git/static/media/gif.7bf431c59425adb27402.png",
+    "static/media/technical overall.jpeg": "/felix1428/trail.git/static/media/technical overall.37020ba6bf0118918970.jpeg",
+    "static/media/nontech.png": "/felix1428/trail.git/static/media/nontech.b26852ca19b4c941df4e.png",
+    "static/media/contact.png": "/felix1428/trail.git/static/media/contact.9c12427f8c9889ca2324.png",
+    "static/media/must.jpeg": "/felix1428/trail.git/static/media/must.ca2853a44354dcf36e38.jpeg",
+    "index.html": "/felix1428/trail.git/index.html",
+    "main.00b9dca3.css.map": "/felix1428/trail.git/static/css/main.00b9dca3.css.map",
+    "main.27837122.js.map": "/felix1428/trail.git/static/js/main.27837122.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00b9dca3.css",
+    "static/js/main.27837122.js"
+  ]
+}
