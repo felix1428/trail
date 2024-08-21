@@ -16,21 +16,21 @@ export default function Footer() {
 		</div>
 		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
 			<div className="space-y-3">
-				<h3 className="tracking-wide uppercase text-gray-50 dark:text-gray-900">Product</h3>
+				<h3 className="tracking-wide uppercase text-gray-50 dark:text-gray-900">Co Ordinator</h3>
 				<ul className="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="http://www.w3.org/2000/svg">Features</a>
+						<a rel="noopener noreferrer" href="http://www.w3.org/2000/svg">Shanmugam</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="http://www.w3.org/2000/svg">Integrations</a>
+						<a rel="noopener noreferrer" href="http://www.w3.org/2000/svg">Contact +91 99620 75982</a>
 					</li>
 				</ul>
 			</div>
 			<div className="space-y-3">
-				<h3 className="tracking-wide uppercase text-gray-50 dark:text-gray-900">Company</h3>
+				<h3 className="tracking-wide uppercase text-gray-50 dark:text-gray-900">Head Of the Department</h3>
 				<ul className="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="http://www.w3.org/2000/svg">Privacy</a>
+						<a rel="noopener noreferrer" href="http://www.w3.org/2000/svg">Dr.V. Belmer Gladson</a>
 					</li>
 					
 				</ul>
@@ -39,10 +39,10 @@ export default function Footer() {
 				<h3 className="uppercase text-gray-50 dark:text-gray-900">Developers</h3>
 				<ul className="space-y-1">
 					<li>
-						<a rel="noopener noreferrer" href="http://www.w3.org/2000/svg">Public API</a>
+						<a rel="noopener noreferrer" href="http://www.w3.org/2000/svg"> Nathaniel Felix L & Gokul P</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="http://www.w3.org/2000/svg">Documentation</a>
+						<a rel="noopener noreferrer" href="http://www.w3.org/2000/svg">Any technical issue contact us : +91 90477 69425</a>
 					</li>
 					
 				</ul>

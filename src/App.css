@@ -1,24 +1,100 @@
 .blueline {
-  position: Center;
+  position: relative;
   display: inline-block;
-  padding-bottom: 10px; /* Adjust space below the text */
-  z-index: 1; /* Ensure it's below the menu */
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1rem;
+  color: #000; /* Default text color */
+  background: linear-gradient(to right, #000, #434343); /* Linear gradient from black to dark gray */
+  -webkit-background-clip: text; /* Clip background to text */
+  background-clip: text; /* Clip background to text */
+  text-fill-color: transparent; /* Make text color transparent to show gradient */
+  text-align: center; /* Center align the text */
+  display: block; /* Ensure the text takes full width */
+  width: fit-content; /* Adjust width to fit content */
+  margin: 0 auto; /* Center horizontally */
+  text-shadow: 
+    0 0 5px rgba(255, 69, 0, 0.8), 
+    0 0 10px rgba(255, 69, 0, 0.8),
+    0 0 15px rgba(255, 69, 0, 0.8),
+    0 0 20px rgba(255, 69, 0, 0.8),
+    0 0 25px rgba(255, 69, 0, 0.8),
+    0 0 30px rgba(255, 69, 0, 0.8),
+    0 0 35px rgba(255, 69, 0, 0.8),
+    0 0 40px rgba(255, 69, 0, 0.8);
 }
-
 
 .blueline::after {
-  content: "";
-  display: block;
-  width: 50%; /* Adjust the width of the line as needed */
-  height: 4px; /* Thickness of the line */
-  background-color: #00f; /* Color of the line */
+  content: '';
   position: absolute;
-  left: 50%; /* Center the line */
-  bottom: 0; /* Align with the bottom of the text */
-  transform: translateX(-50%); /* Center the line */
-  border-radius: 5px; /* Optional: for rounded edges */
-  z-index: -1; /* Ensure it's behind the text */
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -6px; /* Adjust this value to control the distance from the text */
+  width: 70%; /* Adjust the width of the line */
+  height: 4px; /* Adjust the height of the line */
+  background-color: #3490dc; /* Set your desired blue color */
+  border-radius: 2px;
 }
+
+.Topic {
+  position: relative;
+  display: inline-block;
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 1rem;
+  color: #000; /* Default text color */
+  background: linear-gradient(to right, #000, #434343); /* Linear gradient from black to dark gray */
+  -webkit-background-clip: text; /* Clip background to text */
+  background-clip: text; /* Clip background to text */
+  text-fill-color: transparent; /* Make text color transparent to show gradient */
+  text-align: center; /* Center align the text */
+  display: block; /* Ensure the text takes full width */
+  width: fit-content; /* Adjust width to fit content */
+  margin: 0 auto; /* Center horizontally */
+  font-size: 7rem; /* Increase font size */
+  text-shadow: 
+    0 0 5px rgba(0, 0, 255, 0.6), 
+    0 0 10px rgba(0, 0, 255, 0.6),
+    0 0 15px rgba(0, 0, 255, 0.6),
+    0 0 20px rgba(0, 0, 255, 0.6),
+    0 0 25px rgba(0, 0, 255, 0.6),
+    0 0 30px rgba(0, 0, 255, 0.6),
+    0 0 35px rgba(0, 0, 255, 0.6),
+    0 0 40px rgba(0, 0, 255, 0.6),
+    0 0 50px rgba(0, 0, 255, 0.8),
+    0 0 60px rgba(0, 0, 255, 0.8); /* Blue fire flame effect */
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .Topic {
+    font-size: 6rem; /* Adjust font size for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .Topic {
+    font-size: 5rem; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .Topic {
+    font-size: 4rem; /* Adjust font size for mobile screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .Topic {
+    font-size: 3rem; /* Adjust font size for very small screens */
+  }
+}
+
+
 
 header {
   position: fixed; /* Keep the navbar fixed at the top */
@@ -38,3 +114,5 @@ body {
 ul {
   z-index: 20; /* Ensure the mobile menu is above other elements */
 }
+
+
